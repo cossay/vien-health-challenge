@@ -86,8 +86,7 @@ app.get('/api/logout', [AuthMiddleware], async (req, res) => {
 });
 
 app.get('/api/profile', [AuthMiddleware], async (req, res) => {
-    const profile = req.user;
-    res.send(profile);
+    res.send(req.user);
 });
 
 app.listen(port, () => {
