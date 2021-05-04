@@ -7,12 +7,17 @@
     "test": "mocha --recursive"
   },
   "dependencies": {
-    "body-parser": "^1.16.1",
+    "argon2": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "class-validator": "^0.13.1",
     "express": "~4.11.1",
     "express-bearer-token": "^2.1.0",
     "hash": "^0.2.0",
     "mongodb": "^2.2.24",
-    "uuid": "^3.0.1"
+    "mongoose": "^5.12.7",
+    "randomstring": "^1.1.5",
+    "sha256": "^0.2.0",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
