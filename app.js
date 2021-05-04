@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 const port = 5050;
 
-mongoose.connect('mongodb://localhost/vh?retryWrites=false', {
+mongoose.connect('mongodb://localhost/vienhealthchallenge', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
